@@ -4,45 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Mohamed Ashraf's Portfolio">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mohamed Ashraf's Portfolio</title>
+  <title>Mohamed Ashraf | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.png">
 </head>
 <body>
   <header>
-    <h1>Hi, I'm Mohamed Ashraf</h1>
-    <p>Data Scientist | AI Enthusiast | Python Developer</p>
-    <button id="theme-toggle">Switch Theme</button>
-    <img src="https://github.com/MohamedKhalifa1/MohamedKhalifa1.github.io/blob/main/photo_6010261223117012737_c.jpg" alt="Photo of Mohamed Ashraf" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    <nav>
+      <div class="logo">Mohamed Ashraf</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">Dark Mode</button>
+    </nav>
   </header>
 
-  <section>
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Mohamed Ashraf</h1>
+      <p>Data Scientist | AI Enthusiast | Flutter Developer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <img src="images/profile.jpg" alt="Mohamed Ashraf" class="profile-pic">
+  </section>
+
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am a passionate Data Scientist with a focus on machine learning and deep learning. I enjoy solving real-world problems using data and building predictive models.</p>
+    <p>I am a Data Scientist with a passion for solving problems through data-driven solutions. I specialize in machine learning, deep learning, and AI, with experience building predictive models and developing applications using Flutter.</p>
   </section>
 
-  <section>
-    <h2>Featured Projects</h2>
-    <ul>
-      <li><a href="https://github.com/MohamedKhalifa1/Hadith-QA">Hadith QA</a> - A Django-based conversational AI platform for Islamic teachings.</li>
-      <li><a href="https://github.com/MohamedKhalifa1/Falling-People-Detection">Falling People Detection</a> - A real-time YOLOv9 system for detecting falling individuals.</li>
-      <li><a href="https://github.com/MohamedKhalifa1/Car-Plates-Number-Detection">Car Plates Number Detection</a> - A computer vision system for license plate recognition.</li>
-      <li><a href="https://github.com/MohamedKhalifa1/Sales_Forecast">Sales Forecast</a> - A sales forecasting solution using Python and statistical techniques.</li>
-    </ul>
-  </section>
-
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>Python, R, SQL</li>
-      <li>Data Visualization</li>
-      <li>Machine Learning, Deep Learning</li>
-      <li>Web Development (Django)</li>
+    <div class="skills-grid">
+      <div class="skill">Python</div>
+      <div class="skill">TensorFlow</div>
+      <div class="skill">C++</div>
+      <div class="skill">Flutter</div>
+      <div class="skill">Machine Learning</div>
+      <div class="skill">Data Science</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-item">
+        <h3>Sentiment Analysis App</h3>
+        <p>A deep learning-based sentiment analysis app that classifies text as positive, negative, or neutral using LSTM models.</p>
+        <a href="https://github.com/yourgithub/sentiment-analysis-app" class="btn">View Project</a>
+      </div>
+      <div class="project-item">
+        <h3>News Pulse</h3>
+        <p>A Flutter-based news app that fetches and displays real-time news from an API.</p>
+        <a href="https://github.com/yourgithub/news_pulse" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Instructor at Ischool</h3>
+        <span>2023 - Present</span>
+        <p>Teaching coding fundamentals, algorithms, and data structures.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul class="cert-list">
+      <li>IBM Data Science Professional Certificate</li>
+      <li>Machine Learning Specialization - Coursera</li>
+      <li>Deep Learning Specialization - Coursera</li>
     </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you're interested in working together or have any questions, feel free to reach out!</p>
+    <a href="mailto:mohamed.ashraf@example.com" class="btn">Get in Touch</a>
   </section>
 
   <footer>
-    <p>Contact: <a href="mailto:m.ashraf.20162002@gmail.com">m.ashraf.20162002@gmail.com</a> | <a href="https://github.com/MohamedKhalifa1">GitHub</a> | <a href="https://www.linkedin.com/in/mohamed-ashraf-696873213/">LinkedIn</a></p>
+    <p>© 2024 Mohamed Ashraf | All Rights Reserved</p>
   </footer>
 
   <script src="script.js"></script>
